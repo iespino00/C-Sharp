@@ -40,11 +40,8 @@ namespace MetodosPublicYPrivados
         }
 
         public void Suma()
-        {
-           
-           
-            
-            Console.WriteLine("Suma 2 números A + B es: {0}", calcularSuma(5,6));
+        {    
+          Console.WriteLine("Suma 2 números A + B es: {0}", calcularSuma(5,6));
         }
 
         //Los métodos privados solo son accesibles desde la misma clase
