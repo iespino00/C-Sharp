@@ -10,12 +10,17 @@ namespace SentenciaIF
     {
         static void Main(string[] args)
         {
-            //IF
+            //IF -Else
 
-            if(10 > 5)
+            if(10 < 5)
             {
                 //Instrucciones
                 Console.Write("10 si es mayor a 5");
+            }
+            else
+            {
+                //Instrucciones
+                Console.Write("10 es mayor a 5 - Dentro de else");
             }
             Console.ReadKey();
         }
