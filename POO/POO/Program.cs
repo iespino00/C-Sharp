@@ -24,12 +24,17 @@ namespace POO
         //Atributos
         //Modificador de acceso, tipo y nombre
         public int precio;
-        public int velocidad;
+        private int velocidad;
 
         //metodos o funciones
         public void arrancar()
         {
             Console.WriteLine("El Automovil está arrancando...");
+        }
+
+        private void acelerar()
+        {
+            Console.WriteLine("Acelerando...");
         }
 
     }
