@@ -20,7 +20,7 @@ namespace Funciones
             mostrarMsn();
             Console.WriteLine(regresaSuma());
             resta(2,1);
-
+            Console.WriteLine("El resultado de la multiplicación es: " + multiplicaNumeros(2,2));
             Console.ReadKey();
         }
 
@@ -49,5 +49,12 @@ namespace Funciones
             Console.WriteLine("la resta de {0} - {1} es = {2}",valor1,valor2,resultado);
         }
 
+        //Funcion que recibe y devulve valores
+        static int multiplicaNumeros(int num1, int num2)
+        {
+            int resultado = 0;
+            resultado = num1 * num2;
+            return resultado;
+        }
     }
 }
