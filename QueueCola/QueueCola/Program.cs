@@ -71,6 +71,24 @@ namespace QueueCola
             fila.Dequeue(); //Me elimina el primer registro que entró osea 9
             Console.WriteLine(fila.Peek());//Imprimirá 15 ya que fue eliminado el 9 con la linea anterior
             fila.Clear(); //Elimina los elementos que agregamos a la fila.
+
+
+            /* Hash Table - Estructura dinámica 
+              - Add -> Ingresar elementos
+            
+            */
+            Hashtable tabla = new Hashtable();
+
+            //El metodo ADD espera 2 parametros, el primero es el key y el segundo el valor
+            tabla.Add("Concha", 2.50);
+            tabla.Add("Bolillo", 1.50);
+            tabla.Add("Dona de Chocolate", 5.5);
+
+            float valor;
+
+           // valor = (float)tabla["Concha"];
+
+            Console.WriteLine("El costo de la concha es de : ${0} mxn", tabla["Concha"]);
             Console.ReadKey();
         }
     }
