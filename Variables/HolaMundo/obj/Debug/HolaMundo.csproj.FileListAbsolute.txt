@@ -5,3 +5,10 @@ C:\VisualStudio Repository\C#\HolaMundo\HolaMundo\obj\Debug\HolaMundo.csprojAsse
 C:\VisualStudio Repository\C#\HolaMundo\HolaMundo\obj\Debug\HolaMundo.csproj.CoreCompileInputs.cache
 C:\VisualStudio Repository\C#\HolaMundo\HolaMundo\obj\Debug\HolaMundo.exe
 C:\VisualStudio Repository\C#\HolaMundo\HolaMundo\obj\Debug\HolaMundo.pdb
+C:\VisualStudio Repository\C#\Variables\HolaMundo\bin\Debug\HolaMundo.exe.config
+C:\VisualStudio Repository\C#\Variables\HolaMundo\bin\Debug\HolaMundo.exe
+C:\VisualStudio Repository\C#\Variables\HolaMundo\bin\Debug\HolaMundo.pdb
+C:\VisualStudio Repository\C#\Variables\HolaMundo\obj\Debug\HolaMundo.csprojAssemblyReference.cache
+C:\VisualStudio Repository\C#\Variables\HolaMundo\obj\Debug\HolaMundo.csproj.CoreCompileInputs.cache
+C:\VisualStudio Repository\C#\Variables\HolaMundo\obj\Debug\HolaMundo.exe
+C:\VisualStudio Repository\C#\Variables\HolaMundo\obj\Debug\HolaMundo.pdb
