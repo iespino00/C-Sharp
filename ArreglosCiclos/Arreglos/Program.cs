@@ -15,16 +15,11 @@ namespace Arreglos
 
             int[] arreglo = new int[10];
 
-
-
-
             for(int i=0; i<10; i++)
             {
                 arreglo[i] = i+1;
                 Console.WriteLine("El valor de la posición {0} es: {1}",i, arreglo[i]);
             }
-
-           
             Console.ReadKey();
 
         }
