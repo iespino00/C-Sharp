@@ -17,9 +17,9 @@ namespace Funciones
                 Reciben valores
                 Reciben valores y devuelven valores 
              */
-            int n = 5;
             mostrarMsn();
             Console.WriteLine(regresaSuma());
+            resta(2,1);
 
             Console.ReadKey();
         }
@@ -38,6 +38,15 @@ namespace Funciones
         {
             int suma = 9 + 9;
             return suma;
+        }
+
+        //Funcion que recibe un valor
+
+        static void resta(int valor1, int valor2)
+        {
+            int resultado = 0;
+            resultado = valor1 - valor2;
+            Console.WriteLine("la resta de {0} - {1} es = {2}",valor1,valor2,resultado);
         }
 
     }
