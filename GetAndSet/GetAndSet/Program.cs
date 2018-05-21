@@ -4,19 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POO
+namespace GetAndSet
 {
     class Principal
     {
         static void Main(String[] args)
         {
             Automovil auto = new Automovil();
-
-            auto.precio = 5000;
-            Console.WriteLine("Precio del Auto: {0}", auto.precio);
-
-            auto.arrancar();
-
+            auto.Velocidad = 500; //Asigno a travez de SET
+            Console.WriteLine("La velocidad es: {0}", auto.Velocidad); //Leo a travez de GET
+            
             Console.ReadKey();
         }
 
@@ -27,20 +24,14 @@ namespace POO
         //Atributos
         //Modificador de acceso, tipo y nombre
         public int precio;
-        private int velocidad;
+        private int velocidad = 100;
 
         //metodos o funciones
-        public void arrancar()
+        public int Velocidad  //Para acceder a atributos privados a travez de propiedades de GET y SET
         {
-            Console.WriteLine("El Automovil está arrancando...");
-        }
-
-        private void acelerar()
-        {
-            Console.WriteLine("Acelerando...");
+            get  { return velocidad;  }
+            set  { velocidad = value; }
         }
 
     }
-
-
 }
