@@ -12,6 +12,7 @@ namespace Herencia
         {
             Automovil auto = new Automovil();
             auto.muestraPrecio();
+
            Console.ReadKey();
         }
 
